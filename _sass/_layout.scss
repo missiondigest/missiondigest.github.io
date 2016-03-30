@@ -209,9 +209,8 @@ input:focus{
 }
 
 @include media-query($on-palm) {
-     .button {
-       display: none;
-     }
+     .button { display: none; }
+     input#mce-EMAIL { border-radius: 5px; }
  }
 
 
