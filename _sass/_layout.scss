@@ -176,6 +176,8 @@
     }
 }
 
+
+
 #mc_embed_signup_scroll {
     display: inline-flex;
 }
@@ -205,6 +207,12 @@ input:focus{
     cursor: pointer;
     border-radius: 0px 5px 5px 0px;
 }
+
+@include media-query($on-palm) {
+     .button {
+       display: none;
+     }
+ }
 
 
 /**
