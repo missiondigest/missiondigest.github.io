@@ -8,6 +8,13 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+html {
+  background: url(/css/back.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 
 /**
@@ -19,11 +26,7 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background-color: $background-color;
     -webkit-text-size-adjust: 100%;
-    background-image: url(/css/back.jpeg);
-    background-size: cover;
-    background-position-y: -100px;
 }
 
 
