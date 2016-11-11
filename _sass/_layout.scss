@@ -5,14 +5,38 @@
   text-align: center;
 }
 
+.grid-heading {
+    text-align: center;
+}
+.masthead-top {
+    width: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: #586b7b solid 1px;
+    padding-bottom: 5px;
+    color: #586b7b;
+    font-size: 14px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.masthead-bottom {
+    font-size: 32px;
+    color: #586b7b;
+    width: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Cormorant Garamond', serif;
+}
+
 .grid {
   background-color: #244157;
 }
 .grid-heading {
-
+    padding: 40px;
+    padding-bottom: 15px;
 }
 .grid-blocks {
   padding: 25px;
+  padding-top: 0px;
 }
 .grid .item {
     background-color: #232f39;
@@ -37,6 +61,8 @@
     font-weight: bold;
     color: white;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 .grid .item p {
     color: white;
