@@ -16,12 +16,14 @@
 }
 .grid .item {
     background-color: #232f39;
-    min-height: 100px;
+    min-height: 305px;
     width: 31%;
     margin: 1%;
     display: inline-block;
     padding: 20px;
     box-sizing: border-box;
+    text-align: center;
+    vertical-align: top;
 }
 .grid .item h4 {
     text-align: center;
@@ -46,6 +48,12 @@
 }
 .grid .item:hover {
     background: rgba(35, 47, 57, 0.75);
+}
+
+.item i.fa {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #586b7b;
 }
 
 @include media-query($on-palm) {
